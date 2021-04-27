@@ -1,11 +1,11 @@
 import numpy as np
 import math
 def f(x):
-    print x
+    print(x)
     y = [1]*10000000
     [math.exp(i) for i in y]
 def g(x):
-    print x
+    print(x)
     y = np.ones(10000000)
     np.exp(y)
 
